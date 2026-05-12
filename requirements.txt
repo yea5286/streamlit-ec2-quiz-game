@@ -1,3 +1,7 @@
 streamlit
 pandas
+<<<<<<< HEAD
 plotly
+=======
+plotly
+>>>>>>> 7d7734bebb8b31ce6fcb1a6b2191c85145bbd2f9
