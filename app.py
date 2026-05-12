@@ -123,10 +123,12 @@ if not st.session_state.login:
 
     if login_button:
         if input_id == USER_ID and input_pw == USER_PW:
+            print("로그인 성공:", input_id, flush=True)
             st.session_state.login = True
             st.session_state.username = input_id
             st.rerun()
         else:
+            print("로그인 실패", flush=True)
             st.error("로그인 실패: 아이디 또는 비밀번호가 올바르지 않습니다.")
 
 
